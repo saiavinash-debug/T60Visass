@@ -1,22 +1,25 @@
-// SCROLL TO CONTACT
+function toggleMenu(){
+  document.getElementById("navLinks").classList.toggle("show");
+}
 
+
+
+
+// Scroll to footer when hero button clicked
 document.addEventListener("DOMContentLoaded", function () {
 
   const btn = document.querySelector(".hero button");
 
   if (btn) {
     btn.addEventListener("click", function () {
-
-      const contact = document.querySelector("footer");
-
-      contact.scrollIntoView({
+      document.querySelector("footer").scrollIntoView({
         behavior: "smooth"
       });
-
     });
   }
 
 });
+
 
 
 // FAQ ACCORDION
@@ -40,4 +43,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+
+
+
+
+
+
+
+
+
+
 
