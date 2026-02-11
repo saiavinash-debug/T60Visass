@@ -1,196 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>T60Visas</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <script src="script.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>T60Visas</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<script src="script.js"></script>
 </head>
 
 <body>
 
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">
+    <a href="index.html">
+      <img src="assets/images/logo.png" alt="T60 Visas">
+    </a>
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="immigration-visa.html">Immigration Visa</a></li>
+    <li><a href="european-education.html">European Education</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+</nav>
+
 <!-- HERO -->
 <section class="hero">
   <div class="hero-content">
-    <h1>
-      Achieve Your U.S. <span>Green Card</span><br>
-      Through <span>EB-1A</span>
-    </h1>
-    <p>Extraordinary Ability Visa Experts</p>
-    <button>Free Profile Evaluation</button>
-    <small>
-      Expert Guidance for EB-1A, EB-2 NIW & O-1 Visas
-    </small>
+
+   <h1>Expert Immigration & <span><br> Education Consulting</span>Through <span>EB-1A</span> </h1>
+
+   <p>We provide A+ comprehensive support for professionals seeking U.S immigration and European education opportunities. With over 15 years of experience, we deliver strategic positioning for global talent mobility. </p> <a href="contact.html"> <button>T60Visas-Your Global Mobility Partner</button></a> <small class="hero-features"> <span>✔ 15+ Years Experience</span> <span>✔ A+ Service Quality</span> <span>✔ Global Expertise</span> </small>
+
   </div>
 </section>
 
-<section class="eb1a-section">
 
-  <!-- Left Content -->
-  <div class="eb1a-overview">
-    <h2>EB-1A (Extraordinary Ability)<br>Complete Overview</h2>
+<!-- Services -->
 
-    <div class="overview-box">
-      <h3>What is EB-1A?</h3>
-
-      <p>
-        EB-1A is a first-preference employment-based immigrant visa category
-        of the United States designed for individuals with Extraordinary Ability
-        in science, technology, engineering, medicine, education, business, arts,
-        and athletics.
-      </p>
-
-      <p>
-        It allows eligible individuals to obtain a U.S. Green Card
-        without employer sponsorship or labor certification.
-      </p>
-
-      <p class="focus">
-        Applicants must demonstrate sustained national or international acclaim
-        and prove that their work benefits the United States.
-      </p>
-    </div>
-  </div>
-
-  <!-- Right Form -->
-  <div class="form-box">
-
-    <h2>EB-1A Visa Consultation</h2>
-
-    <form>
-
-      <input type="text" placeholder="Full Name" required>
-
-      <input type="email" placeholder="Email Address" required>
-
-      <input type="tel" placeholder="Phone Number">
-
-      <select required>
-        <option value="">Select Visa Type</option>
-        <option>EB-1A Extraordinary Ability</option>
-        <option>EB-2 NIW</option>
-        <option>O-1 Visa</option>
-        <option>UK Global Talent</option>
-        <option>Australia Global Talent</option>
-      </select>
-
-      <select>
-        <option value="">Your Profession</option>
-        <option>IT / Tech Professional</option>
-        <option>Researcher / Scientist</option>
-        <option>Doctor / Healthcare</option>
-        <option>Entrepreneur</option>
-        <option>Professor / Academic</option>
-        <option>Artist / Creative</option>
-        <option>Business Executive</option>
-      </select>
-
-      <textarea rows="4" placeholder="Tell us about your profile..."></textarea>
-
-      <button type="submit">Get Free Evaluation</button>
-
-    </form>
-
-  </div>
-
-</section>
-
-<!-- SERVICES -->
 <section class="services">
   <h2>Our Services</h2>
+  <p class="sub">Comprehensive solutions for your immigration and education needs</p>
+
   <div class="service-row">
+
     <div class="service">
-      <img src="assets/images/icon1.png">
-      <p>Publications Assistance</p>
+      <div class="icon-box">
+        <img src="assets/images/icon1.png">
+      </div>
+      <h3>Immigration Visas</h3>
+      <p>EB-1A, EB-2 NIW, O-1 visas, and global talent mobility programs with expert guidance.</p>
+     <a href="immigration-visa.html">
+  <button>Learn More</button>
+</a>
     </div>
-    <div class="divider"></div>
+
     <div class="service">
-      <img src="assets/images/icon2.png">
-      <p>Judging & Conferences</p>
+      <div class="icon-box">
+        <img src="assets/images/icon2.png">
+      </div>
+      <h3>European Education</h3>
+      <p>Comprehensive guidance for students seeking world-class education across Europe.</p>
+      <a href="european-education.html">
+  <button>Learn More</button>
+</a>
     </div>
-    <div class="divider"></div>
+
     <div class="service">
-      <img src="assets/images/icon3.png">
-      <p>Recommendation Letters</p>
+      <div class="icon-box">
+        <img src="assets/images/icon3.png">
+      </div>
+      <h3>Contact Us</h3>
+      <p>Get in touch with our experts for personalized consultation and support.</p>
+      <button>Get Started</button>
     </div>
-    <div class="divider"></div>
-    <div class="service">
-      <img src="assets/images/icon4.png">
-      <p>RFE Support</p>
+
+  </div>
+</section>
+<!-- WHAT WE PROVIDE -->
+<section class="provide">
+  <h2>What We Provide</h2>
+  <p class="sub">A+ comprehensive services designed to position you for success</p>
+
+  <div class="provide-grid">
+
+    <div class="box">
+      <div class="icon1 blue"><img src="assets/images/icon1.png"></div>
+      <h3>Scholarly Publications</h3>
+      <p>Expert guidance in developing high-quality publications and scholarly articles that strengthen your immigration petition.</p>
     </div>
-    <div class="divider"></div>
-    <div class="service">
-      <img src="assets/images/icon5.png">
-      <p>Full Case Management</p>
+
+    <div class="box">
+      <div class="icon1 teal"><img src="assets/images/icon2.png"></div>
+      <h3>Conference & Judging</h3>
+      <p>Access to speaking engagements, peer review opportunities, and judging roles that demonstrate your authority.</p>
     </div>
+
+    <div class="box">
+      <div class="icon1 blue"><img src="assets/images/icon3.png"></div>
+      <h3>Strategic Positioning</h3>
+      <p>Evidence-driven approach that aligns with USCIS adjudication standards for maximum success.</p>
+    </div>
+
+    <div class="box">
+      <div class="icon1 teal"><img src="assets/images/icon4.png"></div>
+      <h3>University Selection</h3>
+      <p>Comprehensive guidance for selecting the right European universities based on your goals and budget.</p>
+    </div>
+
+    <div class="box">
+      <div class="icon1 blue"><img src="assets/images/icon5.png"></div>
+      <h3>Visa Support</h3>
+      <p>Complete support for student and work visa applications across multiple countries and jurisdictions.</p>
+    </div>
+
+    <div class="box">
+      <div class="icon1 teal"><img src="assets/images/icon6.png"></div>
+      <h3>End-to-End Support</h3>
+      <p>Continuous guidance from initial consultation through successful approval and settlement.</p>
+    </div>
+
   </div>
 </section>
 
-<!-- ELIGIBLE -->
-<section class="eligibility">
-  <h2>Who Can Apply?</h2>
-  <p class="subtitle">
-    EB-1A is for professionals with proven excellence and recognition in their field.
-  </p>
-  <div class="eligibility-grid">
-    <div class="card"><img src="assets/images/img1.jpg" class="icon"> IT Professionals & Tech Experts</div>
-    <div class="card"><img src="assets/images/img2.jpg" class="icon"> Researchers & Scientists</div>
-    <div class="card"><img src="assets/images/img3.jpg" class="icon"> Doctors & Healthcare Professionals</div>
-    <div class="card"><img src="assets/images/img4.jpg" class="icon"> Entrepreneurs & Startup Founders</div>
-    <div class="card"><img src="assets/images/img5.jpg" class="icon"> Business Leaders & Executives</div>
-    <div class="card"><img src="assets/images/img6.png" class="icon"> Academicians & Professors</div>
-    <div class="card"><img src="assets/images/img7.png" class="icon"> Artists & Creative Professionals</div>
-  </div>
-  <p class="note">
-    <i class="fa-solid fa-circle-check"></i>
-    No job offer or employer sponsorship required
-  </p>
-</section>
 
-<!-- EXPERTISE -->
+
 <section class="expertise-section">
 
   <h2>Our Expertise</h2>
   <p class="expertise-subtitle">
-    Specialized Immigration & Global Talent Support
+    15+ years of experience delivering A+ results for global talent mobility
   </p>
 
   <div class="expertise-grid">
 
-    <!-- Card 1 -->
-    <div class="expertise-card">
-      <h3>EB-1A & EB-2 NIW</h3>
+    <div class="expertise-card blue">
+      <h3>15+ Years Experience</h3>
+
       <p>
-        End-to-end support for Extraordinary Ability and National Interest
-        Waiver petitions with strong legal documentation.
+        With over 15 years in the immigration and education consulting industry,
+        we have helped hundreds of professionals achieve their dreams of
+        U.S. immigration and European education.
+      </p>
+
+      <p>
+        Our deep understanding of USCIS adjudication standards, European
+        education systems, and global talent mobility programs ensures you
+        receive expert guidance at every step.
       </p>
     </div>
 
-    <!-- Card 2 -->
-    <div class="expertise-card">
-      <h3>O-1 & Global Talent</h3>
-      <p>
-        Expert guidance for O-1, UK Global Talent, and Australia
-        Global Talent visa applications.
-      </p>
-    </div>
+    <div class="expertise-card teal">
+      <h3>A+ Service Quality</h3>
 
-    <!-- Card 3 -->
-    <div class="expertise-card">
-      <h3>Content & Evidence</h3>
       <p>
-        Professional petition writing, recommendation letters,
-        and evidence structuring based on USCIS standards.
+        We pride ourselves on delivering A+ service quality through structured
+        guidance, transparency, and realistic timelines.
       </p>
-    </div>
 
-    <!-- Card 4 -->
-    <div class="expertise-card">
-      <h3>Judging & Review Support</h3>
       <p>
-        Assistance in securing judging roles, peer reviews,
-        and professional recognitions.
+        Every client receives personalized attention and strategic positioning
+        tailored to their unique profile and goals.
       </p>
     </div>
 
@@ -198,174 +179,136 @@
 
 </section>
 
-<!-- BELIEF -->
-<section class="belief-light">
-  <h2>Why Hire Us?</h2>
-  <div class="belief-box">
-    <p>
-      In today’s competitive immigration environment, approvals depend on 
-      <strong>strategy — not just credentials.</strong>
-    </p>
-    <p>
-      We believe every strong professional profile can be positioned 
-      successfully with the right narrative and evidence.
-    </p>
-    <p class="highlight">
-      Our belief is simple: build real impact, document it correctly, 
-      and present it convincingly.
-    </p>
-    <p>
-      We don’t sell shortcuts — we build 
-      <strong>long-term credibility and lawful success.</strong>
-    </p>
+
+<section class="why-us">
+
+  <h2>Why Choose T60Visas?</h2>
+
+  <div class="why-grid">
+
+    <!-- LEFT -->
+    <div class="why-col">
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Proven Track Record</h4>
+          <p>15+ years of successful cases</p>
+        </div>
+      </div>
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Expert Team</h4>
+          <p>Specialists in immigration & education</p>
+        </div>
+      </div>
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Strategic Approach</h4>
+          <p>Evidence-driven positioning</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="why-col">
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Global Coverage</h4>
+          <p>USA, Europe, UK, Australia</p>
+        </div>
+      </div>
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Personalized Service</h4>
+          <p>Tailored to your unique profile</p>
+        </div>
+      </div>
+
+      <div class="why-item">
+        <span class="icon">✓</span>
+        <div>
+          <h4>Continuous Support</h4>
+          <p>From consultation to approval</p>
+        </div>
+      </div>
+
+    </div>
+
   </div>
+
 </section>
+
 
 <!-- OTHER SERVICES -->
 <section class="other-programs">
   <h2>Other Services & Countries We Work With</h2>
+
   <div class="program-row">
-    <div class="program-card">
-      <img src="assets/images/other1.jpg">
-      <p>EB-2 NIW (USA)</p>
+
+    <div class="program-card bg1">
+      <h3>EB-2 NIW</h3>
+      <span class="tag">USA</span>
     </div>
-    <div class="program-card">
-      <img src="assets/images/other2.png">
-      <p>O-1 Visa (USA)</p>
+
+    <div class="program-card bg2">
+      <h3>O-1 Extraordinary Ability Visa</h3>
+      <span class="tag">USA</span>
     </div>
-    <div class="program-card">
-      <img src="assets/images/other3.jpg">
-      <p>UK Global Talent</p>
+
+    <div class="program-card bg3">
+      <h3>UK Global Talent Visa</h3>
+      <span class="tag">United Kingdom</span>
     </div>
-    <div class="program-card">
-      <img src="assets/images/other4.jpg">
-      <p>Australia Talent Program</p>
+
+    <div class="program-card bg4">
+      <h3>Australia Global Talent Program</h3>
+      <span class="tag">Australia</span>
     </div>
+
   </div>
 </section>
 
-<!-- FAQ -->
-<section class="faq">
-  <h2>Frequently Asked Questions</h2>
-  <div class="faq-item">
-    <button class="faq-question">1. How long does the EB-1A process take?</button>
-    <div class="faq-answer">
-      <p>
-        The EB-1A process typically takes 8–12 months. With premium processing, 
-        the I-140 decision can be received within 15 calendar days.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">2. Do I need a job offer for EB-1A?</button>
-    <div class="faq-answer">
-      <p>
-        No. EB-1A is a self-petition category and does not require employer 
-        sponsorship or a job offer.
-      </p>
-    </div>
-  </div>
+<!---------------- Ready to Start Your Journey? ------------>
+<section class="visa-cta">
 
-  <div class="faq-item">
-    <button class="faq-question">3. What is the success rate?</button>
-    <div class="faq-answer">
-      <p>
-        Success depends on profile strength and strategy. With proper 
-        positioning and evidence, approval rates are significantly higher.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">4. Can IT professionals apply?</button>
-    <div class="faq-answer">
-      <p>
-        Yes. IT professionals with leadership roles, publications, judging 
-        experience, patents, or industry impact are strong candidates.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">5. What if I receive an RFE?</button>
-    <div class="faq-answer">
-      <p>
-        RFEs are common. We provide complete RFE response strategy and 
-        documentation support.
-      </p>
-    </div>
-  </div>
+  <div class="visa-cta-box">
 
+    <h2>Ready to Start Your Journey?</h2>
 
+    <p>
+      Contact us today for a personalized consultation and take the first step
+      toward your immigration or education goals.
+    </p>
 
-            <div class="faq-item">
-    <button class="faq-question">6.Is nationality a limitation for EB-1A?</button>
-    <div class="faq-answer">
-      <p>
-        No. EB-1A is open to all nationalities. However, visa bulletin wait times may vary by country.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">7.What documents are required?</button>
-    <div class="faq-answer">
-      <p>
-       Key documents include resume, publications, citations, awards, media mentions, recommendation letters, and evidence of impact.
-      </p>
-    </div>
-  </div>
-
-  <div class="faq-item">
-    <button class="faq-question">8.Are there any refunds if the case is not approved?</button>
-    <div class="faq-answer">
-      <p>
-        Professional service fees are generally non-refundable, as work is performed upfront. Legal fees depend on individual agreements.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">9.Can I apply while outside the USA?</button>
-    <div class="faq-answer">
-      <p>
-        Yes. EB-1A can be filed from outside the U.S. through consular processing.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">10.What are the benefits of EB-1A?</button>
-    <div class="faq-answer">
-      <p>
-        • Fastest Green Card category
-        • No employer dependency
-        • Priority date often current
-        • Freedom to work anywhere in the U.S.
-
-      </p>
-    </div>
-  </div>
-
-    <div class="faq-item">
-    <button class="faq-question">11.Do publications really matter?</button>
-    <div class="faq-answer">
-      <p>
-      Yes. Scholarly publications, citations, and peer recognition strongly strengthen EB-1A petitions.
-      </p>
-    </div>
-  </div>
-  <div class="faq-item">
-    <button class="faq-question">12. Overall experience with your team?</button>
-    <div class="faq-answer">
-      <p>
-        We provide structured guidance, transparency, realistic timelines, and continuous support throughout the journey.
-      </p>
+    <div class="cta-actions">
+      <a href="#" class="visa-btn">Get Started Today</a>
+      <span class="cta-note">✔ Trusted by Global Applicants</span>
     </div>
   </div>
 </section>
-
 <!-- FOOTER -->
 <footer>
   <h3>Get Your Free Profile Review!</h3>
   <p>📞 +1 123 456 7890 | ✉ info@example.com</p>
-  <button>Book Free Consultation</button>
-</footer>
 
+  <a href="contact.html">
+    <button>Book Free Consultation</button>
+  </a>
+
+  <p class="copyright">
+    © 2025 Pranisha Technologies. All Rights Reserved.
+     <!-- | Privacy Policy | Terms of Service -->
+  </p>
+</footer>
 </body>
 </html>
